@@ -3,21 +3,24 @@
 
 	{% include "components/head.njk" %}
 
-	<body>
+	<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-		<header>
-			<em>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-			</em>
-			{% include "components/nav.njk" %}
-		</header>
+    <div class="site-wrap" id="home-section">
 
-		<main>
-			{{ layoutContent | safe }}
-		</main>
+        {% include "components/nav.njk" %}
 
-		{% include "components/footer.njk" %}
+        {% include "components/cover.njk" %}
+        {% include "components/features.njk" %}
+        {% include "components/about.njk" %}
+        {% include "components/testimonials.njk" %}
+        {% include "components/blog.njk" %}
+        {% include "components/contact.njk" %}
+        {% include "components/footer.njk" %}
 
-	</body>
+    </div> <!-- .site-wrap -->
+
+    {% include "components/js.njk" %}
+
+</body>
 
 </html>

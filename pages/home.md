@@ -2,20 +2,15 @@
 layout: layouts/home.njk
 title: Home
 date: 2016-01-01T00:00:00.000Z
+company: "Data2Action"
 permalink: /
 eleventyNavigation:
   key: Home
   order: 0
 ---
 
-# Welcome
+### We support businesses and institutions in their digital transformation,
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
+helping them to elaborate their strategies based on the most recent, accurate and relevant data. We provide them with actionable insights from benchmarks and survey data, combining machine learning and human expertise.
 
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
-
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on GitHub.
-
-Or click the button below to deploy your own copy of this project to Netlify.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zeerobug/data2action.git&stack=cms)
+<a href="#" class="btn btn-primary mr-2 mb-2">Get Started</a>
