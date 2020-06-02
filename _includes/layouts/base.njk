@@ -9,13 +9,7 @@
 
         {% include "components/nav.njk" %}
 
-        {% include "components/cover.njk" %}
-        {% include "components/features.njk" %}
-        {% include "components/about.njk" %}
-        {% include "components/testimonials.njk" %}
-        {% include "components/blog.njk" %}
-        {% include "components/contact.njk" %}
-        {% include "components/footer.njk" %}
+        {% block mainContent %}{% endblock mainContent%}
 
     </div> <!-- .site-wrap -->
 

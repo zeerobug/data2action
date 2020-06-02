@@ -1,3 +1,10 @@
 {% extends "layouts/base.njk" %}
-
-{{ content | safe }}
+{% block mainContent %}
+    {% include "components/cover.njk" %}
+    {% include "components/about.njk" %}
+    {% include "components/products.njk" %}
+    {% include "components/testimonials.njk" %}
+    {% include "components/blog.njk" %}
+    {% include "components/contact.njk" %}
+    {% include "components/footer.njk" %}
+{% endblock mainContent%}

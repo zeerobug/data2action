@@ -1,23 +1,26 @@
-
-        <div class="site-section bg-light" id="about-section">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-12 text-center">
-                        <h2 class="section-title mb-3">About Us</h2>
-                    </div>
-                </div>
-                <div class="row mb-5">
-                    <div class="col-lg-6">
-                        <img src="/_includes/assets/img/about_1.jpg" alt="Image" class="img-fluid mb-5 mb-lg-0 rounded shadow">
-                    </div>
-                    <div class="col-lg-5 ml-auto pl-lg-5">
-                        <h2 class="text-black mb-4">Create interactive prototypes</h2>
-                        <p class="mb-4">Eos cumque optio dolores excepturi rerum temporibus magni recusandae eveniet,
-                            totam omnis consectetur maxime quibusdam expedita dolorem dolor nobis dicta labore quaerat
-                            esse magnam unde, aperiam delectus! At maiores, itaque.</p>
-                        <p><a href="#" class="btn btn-primary">Learn More</a></p>
-                    </div>
-                </div>
-
+<div class="site-section bg-light" id="about-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h2 class="section-title mb-3">{{about.title}}</h2>
             </div>
         </div>
+        <div class="row mb-5">
+            <div class="col-lg-6">
+                <h2 class="text-black mb-4">{{about.subTitle}}</h2>
+                <img src="{{about.image}}" alt="Image" class="img-fluid mb-5 mb-lg-0 rounded shadow">
+
+            </div>
+            <div class="col-lg-6 ml-auto pl-lg-5 mt-5 text-justify">
+                <p class="mb-4">
+                    {{about.column1}}
+                </p>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-lg-12  text-justify">
+                <p class="mb-3">{{about.column2}}</p>
+            </div>
+        </div>
+    </div>
+</div>

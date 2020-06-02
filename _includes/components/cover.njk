@@ -1,17 +1,20 @@
 <div class="site-blocks-cover">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
+    <div class="container">
 
-                    <div class="col-md-12" style="position: relative;" data-aos="fade-up">
+        <div class="row align-items-center justify-content-center">
 
-                        <img src="/_includes/assets/img/landing_1.png" alt="Image" class="img-fluid img-absolute">
+            <div class="col-md-12" style="position: relative;" data-aos="fade-up">
 
-                        <div class="row mb-4">
-                            <div class="col-lg-5 mr-auto">
-                               {{ content | safe }}
-                            </div>
-                        </div>
+                <img src="/_includes/assets/img/landing_1.png" alt="Image" class="img-fluid img-absolute">
+
+                <div class="row mb-4">
+                    <div class="col-lg-5 mr-auto">
+                        <h3>{{ cover.title}}</h3>
+                        <p>{{ cover.description1 }}</p>
+                        <a href="{{ cover.link.url }}" class="btn btn-primary mr-2 mb-2">{{ cover.link.text }}</a>
                     </div>
                 </div>
+
             </div>
         </div>
+    </div>
