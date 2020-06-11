@@ -2447,3 +2447,13 @@ h5,
     display: none !important;
   }
 }
+
+.company {
+  color: #00d2b5;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.product-card {
+  height: 300px;
+}

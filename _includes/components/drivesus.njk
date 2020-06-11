@@ -1,0 +1,26 @@
+<div class="site-section" id="blog-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h2 class="section-title mb-3">What drives us</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            {% for drive in driveus %}
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 text-justify">
+                    <div class="h-entry">
+                        <h2>
+                            <a href="#">{{drive.title}}</a>
+                        </h2>
+
+                        <p>{{drive.text}}</p>
+                        {# <p>
+                            <a href="#">Continue Reading...</a>
+                        </p> #}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

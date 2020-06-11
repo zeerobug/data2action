@@ -8,8 +8,7 @@
         <div class="row align-items-stretch">
             {% for product in collections.product %}
                 <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
-
-                    <div class="unit-4 d-block">
+                    <div class="unit-4 d-block  product-card">
                         <div class="unit-4-icon mb-3">
                             <span class="icon-wrap">
                                 <span class="text-primary {{product.data.material_ui_icon}}"></span></span>
@@ -22,10 +21,9 @@
                             </p> #}
                         </div>
                     </div>
-
                 </div>
             {% endfor %}
-
         </div>
+        {% include "content/product4.html" %}
     </div>
 </div>
