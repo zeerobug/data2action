@@ -21,7 +21,6 @@ about:
     On the other hand, we’ve seen medium size companies wasting fortunes in complex data-driven marketing automations that would finally generate a couple of hundred dollars in sales."
     column2: "At Data2Action, we consider there is no “graal” for actionable data: no machine learning algorithm, no generic big data hidden value. We believe in a case by case approach combining human analysis of a data context and machine Learning, that will lead to knowledge convertible - or not - into actions."
     image: "/_includes/assets/img/knowledge.jpg"
-
 driveus:
     - title: "Integrity"
       text: "Integrity is a central aspect of our work and life. It defines the way we do business, how we interact with our customers, colleagues and partners, how we work. It guides us to do the right thing for the long-term success of our business."
@@ -30,3 +29,4 @@ driveus:
     - title: "Innovation"
       text: "Innovation is at the heart of what we do. We love to experiment and take smart risks. Our aim is to foster creative thinking solve business challenges."
 ---
+## Some dummy content
