@@ -34,9 +34,10 @@ collections:
     fields:
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Photo", name: "photo", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
-    label: "Page"
+    label: "Pages"
     folder: "pages"
     create: true # Change to true to allow editors to create new pages
     slug: "{{slug}}"
@@ -54,7 +55,7 @@ collections:
   # Content
   - name: "content"
     label: "Content"
-    folder: "content"
+    folder: "collections/content"
     create: true
     slug: "{{fields.name}}"
     fields:
