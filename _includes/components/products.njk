@@ -24,6 +24,6 @@
                 </div>
             {% endfor %}
         </div>
-        {% include "content/product4.html" %}
+        {{collections.productLong[0].templateContent | safe}}
     </div>
 </div>

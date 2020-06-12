@@ -73,12 +73,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_includes/assets/");
   eleventyConfig.addPassthroughCopy("assets");
 
-  // Markdown markdownShortcode use like {% markdown '/path/to/markdown.md' %}
-  const markdownShortcode = require("eleventy-plugin-markdown-shortcode");
-  module.exports = function (eleventyConfig) {
-    eleventyConfig.addPlugin(markdownShortcode);
-  };
-
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
   let markdownItAnchor = require("markdown-it-anchor");

@@ -13,7 +13,7 @@
                         </div>
                     </div>
                     <ul>
-                        {% include "content/whatwedo.html" %}
+                        {{collections.whatwedo[0].templateContent | safe}}
                     </ul>
                     <div class="text-center">
                         <img src="/_includes/assets/img/graph.png" alt="" style="width: 350px;">
