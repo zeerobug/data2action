@@ -26,4 +26,29 @@
                 }
             });
     }
+
+    serializeObject = function (form) {
+        "use strict";
+        var a = {},
+            b = function (b, c) {
+                var d = a[c.name];
+                "undefined" != typeof d && d !== null
+                    ? $.isArray(d)
+                        ? d.push(c.value)
+                        : a[c.name] = [d, c.value]
+                    : a[c.name] = c.value
+            };
+        return $.each(form.serializeArray(), b),
+        a
+    };
+
+    var formSelector = '#contact';
+    $(formSelector).submit(function (e) {
+        e.preventDefault()
+        var form = $(formSelector)
+        var url = 'https://api.clickexperts.com/api/responses/storeAndSend';
+        $(formSelector).append('<input type="hidden" name="_form_key" value="5ef467a2b8b1d508c9215a55" /> ');
+        $.post(url, {parameters: serializeObject(form)});
+        form.trigger("reset");
+    })
 </script>

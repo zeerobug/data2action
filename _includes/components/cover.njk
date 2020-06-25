@@ -9,9 +9,9 @@
 
                 <div class="row mb-4">
                     <div class="col-lg-5 mr-auto">
-                        <h3>{{ cover.title}}</h3>
-                        <p>{{ cover.description1 }}</p>
-                        <a href="{{ cover.link.url }}" class="btn btn-primary mr-2 mb-2">{{ cover.link.text }}</a>
+                        <h3>{{collections.cover[0].data.title}}</h3>
+                        <p>{{ collections.cover[0].templateContent | safe }}</p>
+                        <a href="{{ collections.cover[0].data.link.url }}" class="btn btn-primary mr-2 mb-2">{{ collections.cover[0].data.link.text }}</a>
                     </div>
                 </div>
 

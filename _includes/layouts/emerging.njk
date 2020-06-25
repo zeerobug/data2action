@@ -1,0 +1,10 @@
+{% extends "layouts/base.njk" %}
+<div class="site-blocks-cover">
+    <div class="container">
+        {% block mainContent %}
+            {% include "components/emerging-jumbotron.njk" %}
+            {% include "components/emerging-about.njk" %}
+            {% include "components/emerging-benefits.njk" %}
+        {% endblock mainContent%}
+    </div>
+</div>

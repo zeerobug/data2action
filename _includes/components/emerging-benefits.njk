@@ -1,0 +1,26 @@
+<div class="site-section pt-0" id="blog-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h2 class="section-title mb-3">Benefits</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            {% for benefit in benefits %}
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 text-justify">
+                    <div class="h-entry">
+                        <h2>
+                            {{benefit.title}}
+                        </h2>
+                        <h5>{{benefit.subtitle}}</h5>
+                        <p>{{benefit.text}}</p>
+                        {# <p>
+                            <a href="#">Continue Reading...</a>
+                        </p> #}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

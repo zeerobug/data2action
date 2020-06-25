@@ -2,86 +2,31 @@
     <div class="container">
         <div class="row mb-5">
             <div class="col-12 text-center">
-                <h2 class="section-title mb-3">Testimonials</h2>
+                <h2 class="section-title mb-3">Founders</h2>
             </div>
         </div>
     </div>
-    <div class="slide-one-item home-slider owl-carousel">
-        <div>
-            <div class="testimonial">
-                <figure class="mb-4 d-block align-items-center justify-content-center">
-                    <div><img src="/_includes/assets/img/person_3.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow">
+    <div class="container">
+        <div class="row">
+            {% for bio in collections.bios %}
+                <div class="col p-4">
+                    <div class="testimonial">
+                        <figure class="mb-4 d-block align-items-center justify-content-center">
+                            <div><img src="{{bio.data.photo}}" alt="Image" class="w-100 img-fluid mb-3 shadow">
+                            </div>
+                        </figure>
+                        <p class="text-black">
+                            <strong>{{bio.data.name}}</strong>
+                            <div>{{bio.data.position}}</div>
+
+                        </p>
+                        <blockquote class="mb-3 text-justify">
+                            <p>{{bio.templateContent | safe}}</p>
+                        </blockquote>
+
                     </div>
-                </figure>
-                <blockquote class="mb-3">
-                    <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde
-                                reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae
-                                illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-                </blockquote>
-                <p class="text-black">
-                    <strong>John Smith</strong>
-                </p>
-
-            </div>
+                </div>
+            {% endfor %}
         </div>
-        <div>
-            <div class="testimonial">
-
-                <figure class="mb-4 d-block align-items-center justify-content-center">
-                    <div><img src="/_includes/assets/img/person_2.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow">
-                    </div>
-                </figure>
-
-                <blockquote class="mb-3">
-                    <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde
-                                reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae
-                                illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-                </blockquote>
-
-                <p class="text-black">
-                    <strong>Robert Aguilar</strong>
-                </p>
-
-            </div>
-        </div>
-
-        <div>
-            <div class="testimonial">
-                <figure class="mb-4 d-block align-items-center justify-content-center">
-                    <div><img src="/_includes/assets/img/person_4.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow">
-                    </div>
-                </figure>
-                <blockquote class="mb-3">
-                    <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde
-                                reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae
-                                illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-                </blockquote>
-                <p class="text-black">
-                    <strong>Roger Spears</strong>
-                </p>
-
-            </div>
-
-        </div>
-
-        <div>
-            <div class="testimonial">
-                <figure class="mb-4 d-block align-items-center justify-content-center">
-                    <div><img src="/_includes/assets/img/person_1.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow">
-                    </div>
-                </figure>
-                <blockquote class="mb-3">
-                    <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde
-                                reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae
-                                illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-                </blockquote>
-                <p class="text-black">
-                    <strong>Kyle McDonald</strong>
-                </p>
-
-            </div>
-
-        </div>
-
     </div>
 </div>

@@ -8,12 +8,6 @@ permalink: /
 eleventyNavigation:
   key: Home
   order: 0
-cover:
-  title: "We support businesses and universities in their digital transformation,"
-  description1: "helping them to elaborate their strategies based on the most recent, accurate and relevant data. We provide them with actionable insights from benchmarks and survey data, combining machine learning and human expertise."
-  link:
-    url: "#about-section"
-    text: "Keep reading"
 about:
     title: "Why?"
     subTitle: "Convertible knowledge"
