@@ -1,3 +1,3 @@
 module.exports = {
-  company: "Data2Action",
+  company: 'Emerging Data',
 };
