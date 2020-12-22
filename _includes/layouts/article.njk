@@ -1,0 +1,15 @@
+{% extends "layouts/base.njk" %}
+{% block mainContent %}
+<div class="min-vw-100 container" style="height: 100px; ">
+</div>
+<div class="container pt-5">
+    <div class="row align-items-center justify-content-center">
+        <div class="col-md-9 article-text" style="position: relative;" data-aos="fade-up">
+            <h1>{{title}}</h1>
+            <h4>{{subTitle}}</h4>
+            <div class="meta mb-4"> By {{author}} <span class="mx-2">&bullet;</span> {{date.toUTCString()}}<span class="mx-2">&bullet;</span> <a href="#">{{category}}</a></div>
+            {{ layoutContent | safe }}
+        </div>
+    </div>
+</div>
+{% endblock mainContent%}

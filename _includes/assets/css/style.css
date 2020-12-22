@@ -2466,3 +2466,20 @@ h5,
   background-size: cover;
   -o-background-size: cover;
 }
+
+pre {
+  margin-top: 26px;
+  margin-bottom: 26px;
+  background: rgba(242, 242, 242, 1);
+  padding: 20px;
+  overflow: auto;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+.article-text p {
+  text-align: justify;
+}
