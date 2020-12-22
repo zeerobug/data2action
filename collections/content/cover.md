@@ -1,6 +1,6 @@
 ---
 tags: cover
-title: "We will support businesses and universities in their digital transformation,"
+title: "We support businesses and universities in their digital transformation,"
 link:
     url: "#about-section"
     text: "Keep reading"
