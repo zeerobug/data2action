@@ -2,7 +2,7 @@
 name: Rieke Osthues
 tags: partners
 date: 2020-06-12T10:20:29.378Z
-photo: /_includes/assets/img/logo_kleer.png
+photo: /_includes/assets/img/Screenshot 2020-12-23 at 14.30.29.png
 position: Data science
 ---
 
