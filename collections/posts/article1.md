@@ -1,13 +1,13 @@
 ---
 author: Thomas Vié
-date: 2020-06-15 11:06:02
+date: Created
 image: /_includes/assets/img/network.jpg
 title: Similarities in a multidimensional dataset
 subTitle: A fast and easy way to find the perfect match
 layout: layouts/article
 link: blog/article1
 category: Technology
-excerpt: 'Most of data science is oriented towards the Train, Test, Predict paradigm. Who doesn’t want to guess the future!'
+excerpt: 'Most of data science is oriented towards the Train, Test, Predict paradigm. But there are some cases where other implementations are needed like unsupervised classification or discovering patterns in existing data.'
 ---
 
 <img alt="Image for post" class="et fg fc ix v" src="{{image}}" width="100%"/>
@@ -25,10 +25,8 @@ Here’s the story: A client of ours needed a way to find similar items (neighbo
 I prepared the data, output a Spiderweb chart where the client could choose any Institution and compare it with the others, here is an example for three random universities:
 
 <center>
-<img alt="Image for post" class="et fg fc ix v" src="/_includes/assets/img/original.png" width="70%"/>
-
+<img alt="Image for post" class="pb-2" src="/_includes/assets/img/original.png" width="70%"/><br/>
 Voted skills for three universities
-
 </center>
 At that point, it seemed interesting to search for universities that would have been voted the same way, maybe to compare their actions and study what they were doing good and what wrong.
 

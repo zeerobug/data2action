@@ -7,7 +7,7 @@
         <div class="col-md-9 article-text" style="position: relative;" data-aos="fade-up">
             <h1>{{title}}</h1>
             <h4>{{subTitle}}</h4>
-            <div class="meta mb-4"> By {{author}} <span class="mx-2">&bullet;</span> {{date.toUTCString()}}<span class="mx-2">&bullet;</span> <a href="#">{{category}}</a></div>
+            <div class="meta mb-4"> By {{author}} <span class="mx-2">&bullet;</span> {{page.date | readableDate}}<span class="mx-2">&bullet;</span> <a href="#">{{category}}</a></div>
             {{ layoutContent | safe }}
         </div>
     </div>

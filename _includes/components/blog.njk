@@ -9,11 +9,11 @@
         <div class="row">
         
         {% for post in collections.posts %}
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+          <div class="col-md-6 col-lg-6 mb-4 mb-lg-4">
             <div class="h-entry">
               <img src="{{post.data.image}}" alt="Image" class="img-fluid">
               <h2><a href="#">{{post.data.title}}</a></h2>
-              <div class="meta mb-4">{{post.data.author}} <span class="mx-2">&bullet;</span> {{post.data.date}}<span class="mx-2">&bullet;</span> <a href="#">{{post.data.category}}</a></div>
+              <div class="meta mb-4">by {{post.data.author}} <span class="mx-2">&bullet;</span> {{post.date | readableDate}}<span class="mx-2">&bullet;</span> <a href="#">{{post.data.category}}</a></div>
               <h5>{{post.data.subTitle | safe}}</h5>
               <p>{{post.data.excerpt | safe}}</p>
               <p><a href="{{post.url}}">Continue Reading...</a></p>
