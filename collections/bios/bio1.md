@@ -1,9 +1,8 @@
 ---
-name: Thomas Vié
+name: Caroline Depierre
 tags: bios
-date: 2020-06-12T10:20:29.378Z
-photo: /_includes/assets/img/thomas_sq.jpg
-position: C.T.O.
+photo: /_includes/assets/img/caroline_sq.jpeg
+position: C.E.O.
 ---
 
-Thomas Vié works in analytics since 1999. First as C.T.O. of several data oriented companies, then C.E.O. of an Email Service provider located in Argentina with a global reach. His focus is now on the technical side of data expertise, visualization and analysis, using the newest algorithms and tools to extract useful sense from raw material.
+Caroline Depierre has been for over 10 years a Research Director in the executive board of Trendence, a leading research agency specializing in international employer branding. She is an expert in designing and operating large-scale research projects for major brands. Her focus lies on developing concepts and methods to turn data into actionable insights for employers and universities.
