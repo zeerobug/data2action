@@ -871,7 +871,8 @@ h5,
 @media (max-width: 991.98px) {
   .img-absolute {
     position: relative;
-    top: auto;
+    /* top: auto; */
+    margin-top: 60px;
     -webkit-transform: translateY(0%) translateX(0%);
     -ms-transform: translateY(0%) translateX(0%);
     transform: translateY(0%) translateX(0%);
