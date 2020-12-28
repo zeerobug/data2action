@@ -2,7 +2,7 @@
 name: Marion Prêcheur
 tags: partners
 date: 2020-06-12T10:20:29.378Z
-photo: /_includes/assets/img/MDP Photo.jpg
+photo: /_includes/assets/img/MDP Photo (1).jpg
 position: Business strategy
 ---
 
