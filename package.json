@@ -1,7 +1,7 @@
 {
   "name": "data2action",
   "version": "1.0.0",
-  "description": "Data2action website.",
+  "description": "Emerging data website.",
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
