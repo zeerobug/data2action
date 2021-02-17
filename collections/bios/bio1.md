@@ -1,6 +1,7 @@
 ---
 name: Caroline Depierre
 tags: bios
+date: 2018-06-12T10:20:29.378Z
 photo: /_includes/assets/img/caroline_sq.jpeg
 position: C.E.O.
 ---
