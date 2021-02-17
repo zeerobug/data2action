@@ -51,4 +51,18 @@
         $.post(url, {parameters: serializeObject(form)});
         form.trigger("reset");
     })
+
+     var formSelector = '#download';
+    $(formSelector).submit(function (e) {
+        e.preventDefault()
+        var form = $(formSelector)
+        var url = 'https://api.clickexperts.com/api/responses/storeAndSend';
+        $(formSelector).append('<input type="hidden" name="_form_key" value="602bd9897186406c7de45d80" /> ');
+        $.post(url, {parameters: serializeObject(form)}, () => {
+             window.location.href = '/_includes/assets/doc/emerging-data-services.pdf';
+        form.trigger("reset");
+        });
+        // Download form
+       
+    })
 </script>

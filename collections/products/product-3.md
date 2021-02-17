@@ -1,7 +1,11 @@
 ---
 tags: product
-name: "Data-driven transformation"
-description: "From understanding the value chain to analyze, develop andfollow up, we accompany the company at each stage of its data transformation"
-material_ui_icon: "icon-pie-chart"
-date: 2020-01-04
+small: true
+name: 'Action support'
+description: 'With our actionable insights workshops and 
+action plans, we empower and aligns your teams.
+We help your organization learn how to turn data into action.
+'
+material_ui_icon: 'icon-bar-chart'
+date: 2015-01-06
 ---

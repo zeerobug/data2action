@@ -1,7 +1,15 @@
 ---
 tags: product
-name: "Survey panels"
-description: "We design, implement the surveys and select the panels needed to achieve the best representativity. We deliver oustanding reports customly designed if needed"
-material_ui_icon: "icon-description"
-date: 2016-01-02
+small: true
+name: 'HEEP'
+description: 'With HEEP, our global employability performance 
+dashboard, we help universities grow their brand 
+value and their revenue. 
+'
+material_ui_icon: 'icon-table'
+link: 'https://heep.emerging-data.com/'
+linkText: 'Learn more'
+link2: '/downloadForm.html'
+linkText2: 'Download brochure'
+date: 2015-01-05
 ---

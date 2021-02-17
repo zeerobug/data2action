@@ -1,8 +1,14 @@
 ---
 tags: cover
-title: "We support businesses and universities in their digital transformation,"
+title: 'We believe that making education more performant holds the keys to a better world.'
 link:
-    url: "#about-section"
-    text: "Keep reading"
+  url: '#about-section'
+  text: 'Keep reading'
 ---
-helping them to elaborate their strategies based on the most recent, accurate and relevant data. We provide them with actionable insights from benchmarks and survey data, combining machine learning and human expertise.
+
+**We help higher education institutions and businesses to boost their relationships and their digital transformation.**
+We elaborate strategies to improve our clients’ performance, based on the most recent, accurate and relevant data. We do it human intelligence, cutting-edge technologies… and a little twitch of nonconformism.
+
+- Understand the specific challenges of your business
+- Analyse what drives your performance and how to improve it
+- Act towards excellence

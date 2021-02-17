@@ -2,11 +2,12 @@
     <div class="container">
         <div class="row mb-5">
             <div class="col-12 text-center">
-                <h2 class="section-title mb-3">Products</h2>
+                <h2 class="section-title mb-3">Solutions</h2>
             </div>
         </div>
         <div class="row align-items-stretch">
             {% for product in collections.product %}
+            {% if product.data.small %}
                 <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
                     <div class="unit-4 d-block  product-card">
                         <div class="unit-4-icon mb-3">
@@ -16,12 +17,39 @@
                         <div>
                             <h3>{{product.data.name}}</h3>
                             <p>{{product.data.description}}</p>
-                            {# <p>
-                                <a href="#">Learn More</a>
-                            </p> #}
+                            <p>
+                            {% if product.data.link %}
+                                <a href="{{product.data.link}}" target="_new">{{product.data.linkText}}</a> 
+                            {% endif %}
+                             {% if product.data.link2 %}
+                              | <a href="{{product.data.link2}}" target="_new">{{product.data.linkText2}}</a>
+                            </p>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
+            {% elif product.data.medium %}
+                <div class="col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up">
+                    <div class="unit-4 d-block  product-card">
+                        <div class="unit-4-icon mb-3">
+                            <span class="icon-wrap">
+                                <span class="text-primary {{product.data.material_ui_icon}}"></span></span>
+                        </div>
+                        <div>
+                            <h3>{{product.data.name}}</h3>
+                            <p>{{product.data.description}}</p>
+                            <p>
+                            {% if product.data.link %}
+                                <a href="{{product.data.link}}" target="_new">{{product.data.linkText}}</a> 
+                            {% endif %}
+                             {% if product.data.link2 %}
+                              | <a href="{{product.data.link2}}" target="_new">{{product.data.linkText2}}</a>
+                            </p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+               {% endif %} 
             {% endfor %}
         </div>
         {{collections.productLong[0].templateContent | safe}}
