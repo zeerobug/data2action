@@ -1,7 +1,7 @@
 ---
 name: Thomas Vié
 tags: bios
-date: 2020-06-12T10:20:29.378Z
+date: 2018-06-12T10:20:29.378Z
 photo: /_includes/assets/img/thomas_sq.jpg
 position: C.T.O.
 ---
