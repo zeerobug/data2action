@@ -22,6 +22,16 @@ driveus:
       text: "We want to make a positive impact through our work and relationships. We believe that everything is connected and every action count. We‘re continuously improving the way we manage our daily challenges and our longer-term goal of developing a sustainable business."
     - title: "Innovation"
       text: "Innovation is at the heart of what we do. We love to experiment and take smart risks. Our aim is to foster creative thinking solve business challenges."
+expertise:
+    - title: "Higher Education research"
+      text: "As a venture of the Emerging Group, an international HR consultancy specializing in cooperation between companies and universities, we have a strong expertise in Higher Education research. Emerging is a pioneer in implementing employability strategies. Since 2010, Emerging has published the Global Employability University Ranking, the only worldwide university ranking and study based on feedback from employers."
+      link: "https://emerging.fr"
+      buttonText: "Emerging.fr"
+    - text: "We believe that making education more performant holds the keys to a better world. We help higher education institutions and businesses to boost their relationships and their digital transformation. 
+      Emerging Data is the designer and developer of the Higher Education Evaluation Platform HEEP, a dashboard enabling universities to measure and improve their employability performance."
+      link: "https://heep.emerging-data.com/"
+      buttonText: "Heep"
+
 ---
 
 ## Some dummy content

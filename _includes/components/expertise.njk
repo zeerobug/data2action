@@ -1,0 +1,27 @@
+<div class="site-section bg-light" id="expertise-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h2 class="section-title mb-3">Our expertise</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            {% for item in expertise %}
+                <div class="col-md-6 col-lg-12 mb-4 mb-lg-4 text-justify">
+                    <div class="h-entry">
+                        <h2>
+                            <a href="#">{{item.title}}</a>
+                        </h2>
+
+                        <p>{{item.text}}</p>
+                        <a href="{{ item.link}}" class="btn btn-secondary sm" target="_new">{{ item.buttonText }}</a>
+                        {# <p>
+                            <a href="#">Continue Reading...</a>
+                        </p> #}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

@@ -1,6 +1,6 @@
 ---
 author: Thomas Vié
-date: 2021-04-02
+date: 2020-04-02
 image: /_includes/assets/img/network.jpg
 title: Similarities in a multidimensional dataset
 subTitle: A fast and easy way to find the perfect match

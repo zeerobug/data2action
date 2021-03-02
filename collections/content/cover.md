@@ -1,14 +1,10 @@
 ---
 tags: cover
-title: 'We believe that making education more performant holds the keys to a better world.'
+title: 'From data to action'
 link:
-  url: '#about-section'
-  text: 'Keep reading'
+  url: '#expertise-section'
+  text: 'Our expertise'
 ---
 
-**We help higher education institutions and businesses to boost their relationships and their digital transformation.**
-We elaborate strategies to improve our clients’ performance, based on the most recent, accurate and relevant data. We do it human intelligence, cutting-edge technologies… and a little twitch of nonconformism.
-
-- Understand the specific challenges of your business
-- Analyse what drives your performance and how to improve it
-- Act towards excellence
+**We turn data into action to drive a positive change in our society.**
+We collect, analyze and use data to support the teams behind the digital transformation of organizations. We deliver actionable insights and elaborate strategies to improve our clients’ performance, based on the most recent, accurate and relevant data from benchmarks, surveys and AI. We do it with human intelligence, cutting-edge technologies… and a little twitch of nonconformism.
