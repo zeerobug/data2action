@@ -9,7 +9,9 @@
                         {{header.text}}
                         </div>
                     <div>
-                        <a href="{{ header.button.link}}" class="btn btn-primary sm mt-3 " target="_new">{{ header.button.text }}</a>
+                    {% for button in header.buttons %}
+                        <a href="{{ button.link}}" class="btn btn-primary sm mt-3 mr-2 ">{{ button.text }}</a>
+                    {% endfor %}
                     </div>
                 </div>
             </div>

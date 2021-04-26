@@ -9,14 +9,19 @@ header:
     title: "HEEP · The Higher Education Evaluation Platform"
     text: "We believe that making education more performant holds the keys to a better world. We bring forward Higher Education around the world.
 With HEEP, our global employability performance services and tools, we help universities review traditional university performance assessment concepts and grow their brand value and their revenue."
-    button:
-        text: "Brochure"
-        link: "https://emergingdata.bitrix24.com/disk/showFile/2043/?&ncc=1&ts=1618383759&filename=Emerging+Data+for+HE.pdf"
+    buttons:
+        - text: "Performance"
+          link: "#performance"
+        - text: "Marketing"
+          link: "#marketing"
+        - text: "Action"
+          link: "#action"
     image: "/_includes/assets/img/solutions.jpg"
 
 sections:
     - tile_group:
         title: "Performance management"
+        anchor: "performance"
         tiles:
             - title: "Benchmark"
               text: "Our benchmark provides university leaders with a detailed picture of their institution’s performance compared to peers. With over <strong>1 Million university reviews by employers across years</strong>, geographies and industries, it offers a <strong>global standard to measure and manage employability performance</strong>."
@@ -36,6 +41,7 @@ sections:
               medium: true
     - tile_group:
         title: "Marketing, brand and communication"
+        anchor: "marketing"
         tiles:
             - title: "Brand analysis"
               text: "Every brand is unique. To build a sustainable brand personality, it is necessary to know accurately how it is perceived in different stakeholders groups. Our data-based brand analysis concept helps you <strong>unveil your potential</strong> and build a <strong>unique brand identity</strong>."
@@ -55,6 +61,7 @@ sections:
               medium: true
     - tile_group:
         title: "Action support"
+        anchor: "action"
         tiles:
             - title: "Action Plan"
               text: "Sustained performance requires different functions, teams, geographies, and organization levels to <strong>share a common set of goals and priorities</strong>. The HEEP survey and benchmarking insights helps leaders analyze the impact of their practices and student output and performance and create an <strong>implementation roadmap</strong> to improve it."
