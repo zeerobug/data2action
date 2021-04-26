@@ -3,7 +3,7 @@ tags: product
 medium: true
 name: 'Action support'
 description: 'With our actionable insights workshops and 
-action plans, we empower and aligns your teams.
+action plans, we empower and align your teams.
 We help your organization learn how to turn data into action.
 '
 material_ui_icon: 'icon-bar-chart'
