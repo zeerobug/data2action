@@ -1,33 +1,36 @@
+<script>
+
+</script>
 <div class="site-section bg-light" id="contact-section">
     <div class="container">
-        <div class="row mb-5">
+        <div class="row mb-5 mt-5">
             <div class="col-12 text-center">
                 <h2 class="section-title mb-3">Get In Touch</h2>
             </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" id="contactDiv">
             <div class="col-lg-7 mb-5">
 
-                <form action="#" class="p-5 bg-white" id="contact">
+                <form  action="https://submit-form.com/kFwyBAjG" class="p-5 bg-white" id="contactForm">
 
                     <h2 class="h4 text-black mb-5">Contact Form</h2>
 
                     <div class="row form-group">
                         <div class="col-md-6 mb-3 mb-md-0">
-                            <label class="text-black" for="fname">First Name</label>
-                            <input name="fname" type="text" id="fname" class="form-control rounded-0">
+                            <label class="text-black" for="fname">First Name*</label>
+                            <input name="fname" type="text" id="fname" class="form-control rounded-0" required>
                         </div>
                         <div class="col-md-6">
-                            <label class="text-black" for="lname">Last Name</label>
-                            <input name="lname" type="text" id="lname" class="form-control rounded-0">
+                            <label class="text-black" for="lname">Last Name*</label>
+                            <input name="lname" type="text" id="lname" class="form-control rounded-0" required>
                         </div>
                     </div>
 
                     <div class="row form-group">
 
                         <div class="col-md-12">
-                            <label class="text-black" for="email">Email</label>
-                            <input name="email" type="email" id="email" class="form-control rounded-0">
+                            <label class="text-black" for="email">Email*</label>
+                            <input name="email" type="email" id="email" class="form-control rounded-0" required>
                         </div>
                     </div>
 
@@ -51,10 +54,22 @@
                     <div class="row form-group">
                         <div class="col-md-12">
                             <input type="submit" value="Send Message" class="btn btn-primary mr-2 mb-2">
+                            <input type="hidden" name="inquiry" id="inquiry-field" value="">
+                            <input
+                                type="hidden"
+                                name="_redirect"
+                                value="https://emerging-data.com"
+                            />
                         </div>
                     </div>
 
                 </form>
+            </div>
+
+        </div>
+         <div class="row justify-content-center" id="thanksDiv">
+            <div class="col-lg-7 mb-5">
+                Thank you, your request will be transferred to our support team
             </div>
 
         </div>

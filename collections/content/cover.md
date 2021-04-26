@@ -1,9 +1,12 @@
 ---
 tags: cover
 title: 'From data to action'
-link:
-  url: '#expertise-section'
-  text: 'Our expertise'
+link1:
+  url: '#products-section'
+  text: 'For Businesses'
+link2:
+  url: '/solutionTiles.html'
+  text: 'For Institutions'
 ---
 
 **We turn data into action to drive a positive change in our society.**

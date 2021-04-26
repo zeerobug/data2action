@@ -10,4 +10,6 @@ And deliver oustanding reports customly designed if needed.
 '
 material_ui_icon: 'icon-database'
 date: 2015-01-06
+link: 'contactPage.html?inquiry=data & research'
+linkText: 'Discover more'
 ---

@@ -1,12 +1,13 @@
 <div class="site-section bg-light" id="products-section">
+{% for section in sections %}
     <div class="container">
         <div class="row mb-5">
             <div class="col-12 text-center">
-                <h2 class="section-title mb-3">{{tiles_title}}</h2>
+                <h2 class="section-title mb-3">{{section.tile_group.title}}</h2>
             </div>
         </div>
         <div class="row align-items-stretch">
-            {% for tile in tiles %}
+            {% for tile in section.tile_group.tiles %}
             {% if tile.small %}
                 <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
                     <div class="unit-4 d-block  product-card">
@@ -17,6 +18,7 @@
                         <div>
                             <h3>{{tile.title}}</h3>
                             <p>{{tile.text | safe}}</p>
+                            <p><a href="contactPage.html?inquiry={{tile.title}}" class="btn btn-primary mr-2 mb-2 sm">Discover more</a></p>
                             <p>
                             {% if tile.link %}
                                 <a href="{{tile.link}}" target="_new">{{tile.linkText}}</a> 
@@ -37,7 +39,8 @@
                         </div>
                         <div>
                             <h3>{{tile.title}}</h3>
-                            <p>{{tile.text}}</p>
+                            <p>{{tile.text | safe}}</p>
+                            <p><a href="contactPage.html?inquiry={{tile.title}}" class="">Discover more</a></p>
                             <p>
                             {% if tile.link %}
                                 <a href="{{tile.link}}" target="_new">{{tile.linkText}}</a> 
@@ -53,4 +56,5 @@
             {% endfor %}
         </div>
     </div>
+     {% endfor %}
 </div>
