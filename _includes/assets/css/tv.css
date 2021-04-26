@@ -25,3 +25,9 @@
 .product-card {
   height: 350px;
 }
+
+.dark-button:hover {
+  color: white;
+  background: black;
+  opacity: 1;
+}
