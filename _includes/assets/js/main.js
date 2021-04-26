@@ -17,6 +17,7 @@ jQuery(document).ready(function ($) {
   // Populate contact field with query contect
   let inquiry = $.urlParam('inquiry');
   $('#inquiry-field').val(inquiry);
+  $('#thanksDiv').hide();
   var siteMenuClone = function () {
     $('.js-clone-nav').each(function () {
       var $this = $(this);
@@ -30,7 +31,7 @@ jQuery(document).ready(function ($) {
       // Here we do value checking
       $('#contactDiv').hide();
       $('#thanksDiv').show();
-      // e.preventDefault();
+      //e.preventDefault();
       return;
     });
     setTimeout(function () {
