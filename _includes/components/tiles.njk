@@ -1,0 +1,56 @@
+<div class="site-section bg-light" id="products-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h2 class="section-title mb-3">{{tiles_title}}</h2>
+            </div>
+        </div>
+        <div class="row align-items-stretch">
+            {% for tile in tiles %}
+            {% if tile.small %}
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+                    <div class="unit-4 d-block  product-card">
+                        <div class="unit-4-icon mb-3">
+                            <span class="icon-wrap">
+                                <span class="text-primary {{tile.material_ui_icon}}"></span></span>
+                        </div>
+                        <div>
+                            <h3>{{tile.title}}</h3>
+                            <p>{{tile.text | safe}}</p>
+                            <p>
+                            {% if tile.link %}
+                                <a href="{{tile.link}}" target="_new">{{tile.linkText}}</a> 
+                            {% endif %}
+                             {% if tile.link2 %}
+                              | <a href="{{tile.link2}}" target="_new">{{tile.linkText2}}</a>
+                            </p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            {% elif tile.medium %}
+                <div class="col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up">
+                    <div class="unit-4 d-block  product-card">
+                        <div class="unit-4-icon mb-3">
+                            <span class="icon-wrap">
+                                <span class="text-primary {{tile.material_ui_icon}}"></span></span>
+                        </div>
+                        <div>
+                            <h3>{{tile.title}}</h3>
+                            <p>{{tile.text}}</p>
+                            <p>
+                            {% if tile.link %}
+                                <a href="{{tile.link}}" target="_new">{{tile.linkText}}</a> 
+                            {% endif %}
+                             {% if tile.link2 %}
+                              | <a href="{{tile.link2}}" target="_new">{{tile.linkText2}}</a>
+                            </p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+               {% endif %} 
+            {% endfor %}
+        </div>
+    </div>
+</div>

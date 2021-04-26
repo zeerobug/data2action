@@ -1,0 +1,24 @@
+.hero-internal {
+  height: 600px;
+}
+
+.hero-title {
+  color: white;
+}
+
+.hero-text {
+  font-size: 20px;
+  color: #ffffff;
+  /* max-width: 650px; */
+  line-height: 1.8;
+  padding-top: 2em;
+}
+
+.jumbotron {
+  /* background: url('/_includes/assets/img/solutions.jpg') no-repeat center center
+    fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
