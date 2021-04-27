@@ -4,7 +4,7 @@ title: Solution Tiles
 linkify: true
 date: 2016-01-01T00:00:00.000Z
 company: 'Emerging Data'
-permalink: solutionTiles.html
+permalink: "/solutionTiles.html"
 header:
     title: "HEEP · The Higher Education Evaluation Platform"
     text: "We believe that making education more performant holds the keys to a better world. We bring forward Higher Education around the world.
