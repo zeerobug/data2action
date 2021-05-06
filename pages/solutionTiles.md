@@ -64,7 +64,7 @@ sections:
         anchor: "action"
         tiles:
             - title: "Data developments"
-              text: "As a consequence of our main activity, we provide services of data mining, data analysis, augmented analytics, and full stack application development for desktop and mobile. "
+              text: "We provide services of data mining, data analysis, augmented analytics, and full stack application development for desktop and mobile. "
               medium: true
               material_ui_icon: 'icon-call_to_action'
             - title: "Team workshops"
