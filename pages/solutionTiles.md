@@ -63,8 +63,8 @@ sections:
         title: "Action support"
         anchor: "action"
         tiles:
-            - title: "Action Plan"
-              text: "Sustained performance requires different functions, teams, geographies, and organization levels to <strong>share a common set of goals and priorities</strong>. The HEEP survey and benchmarking insights helps leaders analyze the impact of their practices and student output and performance and create an <strong>implementation roadmap</strong> to improve it."
+            - title: "Data developments"
+              text: "As a consequence of our main activity, we provide services of data mining, data analysis, augmented analytics, and full stack application development for desktop and mobile. "
               medium: true
               material_ui_icon: 'icon-call_to_action'
             - title: "Team workshops"

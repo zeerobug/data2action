@@ -8,7 +8,7 @@ layout: layouts/article
 link: events/event1
 category: News
 tags: events
-excerpt: 'In this article resumes our last masterclass, given the 27th of April
+excerpt: 'In this article you will find an abstract of our last masterclass, given the 27th of April
 '
 ---
 
