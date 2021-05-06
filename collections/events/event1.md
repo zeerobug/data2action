@@ -2,7 +2,7 @@
 author: Caroline Depierre
 date: 2021-04-27
 image: /_includes/assets/img/charts.png
-title: Data-driven decision making for university leaders?
+title: How to turn data into university KPIs in 6 steps
 subTitle: 'Learning with Emerging Data'
 layout: layouts/article
 link: events/event1
@@ -14,15 +14,13 @@ excerpt: 'In this article you will find an abstract of our last masterclass, giv
 
 <img alt="Image for post" class="et fg fc ix v pb-5" src="{{image}}" width="100%" />
 
-# How to turn data into university KPIs in 6 steps?</h3>
-
 In these turbulent times, **the need** for renewal and transformation in higher education has become more obvious than ever. The competition is very high, new education models arise - the viability of the university model in itself is questioned. And one thing is for sure: employability must be at the heart of universities’ strategies if they want to thrive or even survive.
 
 Here is a synthesis of the paper **“How to turn data into actionable insights and KPIs in 6 steps?”** I presented the first time to international university leaders on April 27 2021. The paper shows **how universities can use the Global Employability University Ranking and Survey** to improve their employability performance.
 
 On April 27th, Emerging Data had invited university leaders to a master class with the topic: “What university KPIs for the post-covid era?”. Participants came from all over the world. They work in all kinds of university governance roles, reaching from Vice president to Brand and Communications Director, Director of Strategic Benchmarking, Head of Career Services and Corporate Relations or Research Intelligence Director.
 
-This master class was the first in a new online program called “Data-driven decision making for university leaders” (METTRE LE LIEN VERS NEWS AND EVENTS). The aim is to show university leaders and their teams how to best collect and use data to turn them into actionable insights and KPIs and improve the university output.
+This master class was the first in a new online program called “[**Data-driven decision making for university leaders**](/collections/events/event2/)". The aim is to show university leaders and their teams how to best collect and use data to turn them into actionable insights and KPIs and improve the university output.
 
 ### General approach: From data to action
 

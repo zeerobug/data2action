@@ -2,7 +2,7 @@
 author: Caroline Depierre
 date: 2021-05-02
 image: /_includes/assets/img/masterclass.png
-title: Masterclasses to come
+title: Data-driven decision making for university leaders
 subTitle: 'Learning with Emerging Data'
 layout: layouts/article
 link: events/event2
