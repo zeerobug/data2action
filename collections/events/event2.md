@@ -20,11 +20,11 @@ In these masterclasses, you will learn **how to prepare your institution for the
 
 **19 May**: What KPI's for universities in the post-covid era?
 Learn how to turn data into actionable insights and KPIs in only 6 steps
-[Register here](/briteEvent.html)
+[Register here](https://www.eventbrite.com/e/152833319573)
 
 **22 June**: Internationalization strategies in a post-covid era
 Join our expert panel to discuss postcovid internationalization and curriculum development strategies
-[Register here](/briteEvent.html)
+[Register here](https://www.eventbrite.com/e/153757421587)
 
 **28 september**: Building a data-based, shared action plan
 Learn how to establish a data-driven approach that allows teams to align teams and work efficiently
