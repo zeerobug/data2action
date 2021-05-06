@@ -1,18 +1,18 @@
 ---
 author: Caroline Depierre
-date: 2020-04-02
+date: 2021-04-27
 image: /_includes/assets/img/charts.png
-title: What university KPIs for the post-covid era?
-subTitle: 'Masterclass'
+title: Data-driven decision making for university leaders?
+subTitle: 'Learning with Emerging Data'
 layout: layouts/article
 link: events/event1
-category: Event
+category: News
 tags: events
-excerpt: 'In this Masterclass, given the 27th of April, we presented for the first time to international university leaders on April 27 2021 how universities can use the Global Employability University Ranking and Survey to improve their employability performance.
+excerpt: 'In this article resumes our last masterclass, given the 27th of April
 '
 ---
 
-<img alt="Image for post" class="et fg fc ix v" src="{{image}}" width="100%"/>
+<img alt="Image for post" class="et fg fc ix v pb-5" src="{{image}}" width="100%" />
 
 # How to turn data into university KPIs in 6 steps?</h3>
 
