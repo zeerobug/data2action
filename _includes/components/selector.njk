@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+<script>
+$(document).ready( function () {
+  
+var data =  [
+    [
+      "Tiger Nixon",
+      "System Architect",
+      "Edinburgh",
+      "5421",
+      "2011/04/25",
+      "$320,800"
+    ],
+    [
+      "Garrett Winters",
+      "Accountant",
+      "Tokyo",
+      "8422",
+      "2011/07/25",
+      "$170,750"
+    ],
+    [
+      "Ashton Cox",
+      "Junior Technical Author",
+      "San Francisco",
+      "1562",
+      "2009/01/12",
+      "$86,000"
+    ],
+    [
+      "Cedric Kelly",
+      "Senior Javascript Developer",
+      "Edinburgh",
+      "6224",
+      "2012/03/29",
+      "$433,060"
+    ],
+];
+  
+var data2 = [
+      [
+      "Rhona Davidson",
+      "Integration Specialist",
+      "Tokyo",
+      "6200",
+      "2010/10/14",
+      "$327,900"
+    ],
+    [
+      "Colleen Hurst",
+      "Javascript Developer",
+      "San Francisco",
+      "2360",
+      "2009/09/15",
+      "$205,500"
+    ],
+    [
+      "Sonya Frost",
+      "Software Engineer",
+      "Edinburgh",
+      "1667",
+      "2008/12/13",
+      "$103,600"
+    ],
+    [
+      "Jena Gaines",
+      "Office Manager",
+      "London",
+      "3814",
+      "2008/12/19",
+      "$90,560"
+    ],
+]
+  
+  var table = $('#example').DataTable({
+    data: data,
+    columnDefs: [
+      {
+        targets: 0,
+        createdCell: function (td, cellData, rowData, row, col) {
+          $(td).addClass('draggable_tr');
+        }
+      }
+    ],
+    drawCallback: function () {
+      $("#example tr .draggable_tr").draggable({
+      helper: function(){
+        var selected = $('tr.selectedRow');
+        if (selected.length === 0) {
+          selected = $(this).closest('tr').addClass('selectedRow');
+        }
+        var container = $('<div/>').attr('id', 'draggingContainer');
+        container.append(selected.clone().removeClass("selectedRow"));
+        return container;
+        }
+      });
+    }
+  });
+  
+  
+  
+  var table2 = $('#example2').DataTable({
+    data: data2,
+    columnDefs: [
+      {
+        targets: 0,
+        createdCell: function (td, cellData, rowData, row, col) {
+          $(td).addClass('draggable_tr');
+        }
+      }
+    ],
+    drawCallback: function () {
+      $("#example2 tr .draggable_tr").draggable({
+      helper: function(){
+        var selected = $('tr.selectedRow');
+        if (selected.length === 0) {
+          selected = $(this).closest('tr').addClass('selectedRow');
+        }
+        var container = $('<div/>').attr('id', 'draggingContainer');
+        container.append(selected.clone().removeClass("selectedRow"));
+        return container;
+        }
+      });
+    }  });
+  
+ 
+
+$("#example, #example2").droppable({
+    drop: function (event, ui) {
+    
+      var dropTable = $(this).DataTable();
+      dropTable.row.add(ui.helper.children()).draw(false);
+
+      var draggingTable = $('.selectedRow').closest('table').DataTable();
+      draggingTable.row($('.selectedRow')).remove().draw(false);
+    }
+});
+
+$(document).on("click", ".tablegrid tr", function () {
+  console.log('toggle class')
+    $(this).toggleClass("selectedRow");
+});
+} );
+</script>
+</head>
+<body>
+      <div class="container">
+      <div class="row">
+      <div class="col">
+      <table id="example" class="tablegrid display nowrap" width="100%">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Country</th>
+            
+          </tr>
+        </thead>
+
+        <tfoot>
+          <tr>
+            <th>Name</th>
+            <th>Country</th>
+            
+          </tr>
+        </tfoot>
+
+      </table>
+</div>
+<div class="col">
+      <table id="example2" class="tablegrid display nowrap" width="100%">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+
+        <tfoot>
+          <tr>
+            <th>Name</th>
+            <th>Country</th>
+          </tr>
+        </tfoot>
+
+      </table>
+</div>
+</div>
+</body>
+</html>
