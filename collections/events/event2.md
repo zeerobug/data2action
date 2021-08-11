@@ -16,16 +16,17 @@ Our data help review traditional university performance assessment concepts and 
 
 In these masterclasses, you will learn **how to prepare your institution for the future** and align your teams towards a **sound and shared strategy**. We will show you how to use Emerging’s research data and other insights to **anticipate trends and sustainably improve your performance**.
 
-### Planned sessions:
+### Past sessions:
 
 **19 May**: What KPI's for universities in the post-covid era?
 Learn how to turn data into actionable insights and KPIs in only 6 steps
-[Register here](https://www.eventbrite.com/e/152833319573)
 
-**22 June**: Internationalization strategies in a post-covid era
+### Planned sessions:
+
+**28 September**: Internationalization strategies in a post-covid era
 Join our expert panel to discuss postcovid internationalization and curriculum development strategies
 [Register here](https://www.eventbrite.com/e/153757421587)
 
-**28 september**: Building a data-based, shared action plan
+**Date to be annouced**: Building a data-based, shared action plan
 Learn how to establish a data-driven approach that allows teams to align teams and work efficiently
 Register link to come. If you want to receive news about this masteclass, contact us [here](/contactPage.html)
